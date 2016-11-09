@@ -1,0 +1,108 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #88847f;
+	font-size: 19px;
+	line-height: 1.65;
+	margin: 0;
+}
+
+
+/* `Les Titres
+----------------------------------------------------------------------------------*/
+
+.title {
+	font-family: 'Merriweather Sans', sans-serif;
+	line-height: 1.2;
+	font-size: 48px;
+	font-weight: 700;
+	color: #000000;
+    margin-top: 20px;
+
+}
+
+.title--blue {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #8fa7f3
+}
+
+
+/* `Le layout 
+----------------------------------------------------------------------------------------------------*/
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+    background: url(img/mathilda-trait.png) no-repeat right top;
+} 
+
+.section--main {
+    padding: 0px 0 80px 0;
+}
+
+.profil {
+    display: inline-block;
+    box-shadow: 0 10px 20px rgba(35,35,35,.04);
+}
+
+.description {
+    width: 404px;
+    height: 762px;
+    display: inline-block;
+    padding: 43px 58px 53px 58px;
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    box-shadow: 0 10px 20px rgba(35,35,35,.04);
+}
+
+.bloc {
+    margin: 50px 0px 0px 0px;
+    height: 858px;
+    position: relative;
+}
+
+.paragraphe {
+    margin-top: 70px;
+}
+
+.social {
+    padding: 58px 20px 0px 20px;
+    align-content: center;
+}
+
+.icon {
+    padding: 0px 6px 0px 6px;
+}
+
+.cv {
+    display: inline-block;
+}
+
+.resume {
+	font-size: 16px;
+	color: #ffffff;
+	font-weight:bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.resume--more {
+    position: absolute;
+    top: 720px;
+    left: 778px;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(143, 167, 243, 0.6);
+    padding: 55px 65px 22px 135px;
+    
+}
+
+.resume--more:hover {
+    background-color: rgba(143, 167, 243, 1);
+}
+
+
+
+
+
+
